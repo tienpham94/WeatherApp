@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Tien Pham">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WeatherApp</title>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="js/wow.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script>
+          new WOW().init();
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+  
+
+</head>
+
+<body>
+
+  <div class="container wow jello" id="block">
+
+        <div id="switch">
+            <label>
+            <input type="radio" value="c" name="options"  id="switchC" autocomplete="off" checked> °C </label>
+            <label>
+            <input type="radio" value="f" name="options"  id="switchF" autocomplete="off"> °F </label>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-xs-0"></div>
+            <div class="col-lg-8 col-xs-12">
+                <div id="test"></div>
+                <div id="place"></div>
+                <div id="temp"></div>
+                <div id="status"></div>
+                <div id="img"></div>
+                
+                
+            </div>
+            <div class="col-sm-2 col-xs-0"></div>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
