@@ -1,0 +1,1 @@
+The project can be viewed by clicking this [link](http://users.metropolia.fi/~tienp/MobileWeatherApp/)
