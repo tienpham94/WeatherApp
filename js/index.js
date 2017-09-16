@@ -1,5 +1,3 @@
-(function(){
-
 $(function() {
 
 //Open weather API 
@@ -46,8 +44,7 @@ function output(url) {
     });
 }
 
-//IIFE for geolocation using ip-api JSON 
-(function getCoords() {
+function getCoords() {
     $.getJSON("http://ip-api.com/json", function(location){
         var latitude = location.lat;
         var longitude = location.lon;
@@ -55,8 +52,6 @@ function output(url) {
             longitude +"&units=metric&APPID=" + API;
         output(url);
     });
-}());
+}
 
 });
-
-}());
